@@ -10,26 +10,26 @@ public class LoginPage extends BasePage {
 		super(driver);
 	}
 
-	@FindBy(xpath = "//input[@id='input-email']")
-	WebElement txtEmailAddress;
+	@FindBy(xpath = "//input[@data-heal-id='userName4']")
+	WebElement enterUsernam;
 
-	@FindBy(xpath = "//input[@id='input-password']")
-	WebElement txtPassword;
+	@FindBy(xpath = "//input[@data-heal-id='password4']")
+	WebElement enterPassword;
 
-	@FindBy(xpath = "//input[@value='Login']")
-	WebElement btnLogin;
+	@FindBy(xpath = "//button[@data-heal-id='loginButton3']")
+	WebElement btnSignin;
 
 
 	public void setEmail(String email) {
-		txtEmailAddress.sendKeys(email);
+		enterUsernam.sendKeys(email);
 	}
 
 	public void setPassword(String pwd) {
-		txtPassword.sendKeys(pwd);
+		enterPassword.sendKeys(pwd);
 	}
 
 	public void clickLogin() {
-		btnLogin.click();
+		btnSignin.click();
 	}
 
 	

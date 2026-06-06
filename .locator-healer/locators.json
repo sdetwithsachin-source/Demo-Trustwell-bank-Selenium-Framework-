@@ -1,0 +1,50 @@
+[
+    {
+        "fileName": "HomePage.java",
+        "element": "lnkMyaccount",
+        "locatorType": "xpath",
+        "locatorValue": "//span[normalize-space()='My Account']"
+    },
+    {
+        "fileName": "HomePage.java",
+        "element": "lnkRegister",
+        "locatorType": "xpath",
+        "locatorValue": "//a[normalize-space()='Register']"
+    },
+    {
+        "fileName": "HomePage.java",
+        "element": "linkLogin",
+        "locatorType": "linkText",
+        "locatorValue": "Login"
+    },
+    {
+        "fileName": "HomePage.java",
+        "element": "txtSearchbox",
+        "locatorType": "xpath",
+        "locatorValue": "//input[@placeholder='Search']"
+    },
+    {
+        "fileName": "HomePage.java",
+        "element": "btnSearch",
+        "locatorType": "xpath",
+        "locatorValue": "//div[@id='search']//button[@type='button']"
+    },
+    {
+        "fileName": "LoginPage.java",
+        "element": "enterUsernam",
+        "locatorType": "xpath",
+        "locatorValue": "//input[@data-heal-id='userName3']"
+    },
+    {
+        "fileName": "LoginPage.java",
+        "element": "enterPassword",
+        "locatorType": "xpath",
+        "locatorValue": "//input[@data-heal-id='password3']"
+    },
+    {
+        "fileName": "LoginPage.java",
+        "element": "btnSignin",
+        "locatorType": "xpath",
+        "locatorValue": "//button[@data-heal-id='loginButton3']"
+    }
+]
