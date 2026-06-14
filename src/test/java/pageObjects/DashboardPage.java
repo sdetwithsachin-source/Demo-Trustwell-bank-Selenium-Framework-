@@ -10,7 +10,7 @@ public class DashboardPage extends BasePage {
         super(driver);
     }
 
-    @FindBy(id = "transferBtnAutoHealed")
+    @FindBy(id = "transferBtnAutoHealedv1")
     WebElement btnTransferMoney;
 
     // Alternative locator
